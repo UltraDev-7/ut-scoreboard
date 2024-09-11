@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:700&display=swap&subset=arabic" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css" rel="stylesheet">
+    <title>ut-scoreboard</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-header">
+                    <!-- <img src="clover-logo.png" alt="clover-logo" class="clover-logo"> -->
+                        <p>Ultra Development</p>
+                </div>
+
+                <hr>
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-header">
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="houserobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>house robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="banktruck" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>truck robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>     
+                    <div class="scoreboard-info-beam" data-type="bobcatrobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>bobcat robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="artgalleryrobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>art robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="pacificrobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>pacific robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="policerob" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>police hostage</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="emsonline" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>online ems</p><i class="fa-solid fa-truck-medical"></i></div>
+                        <div class="info-beam-status1" id="total-ems"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="ogtal3b" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>play time</p><i class="fa-solid fa-stopwatch"></i></div>
+                        <div class="info-beam-status1" id="ogtal3b" style="color: #30c98b;"></div>
+                    </div>
+				</div>
+				
+				<div class="scoreboard-info1">
+                    <div class="scoreboard-info-header">
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="storerobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>store robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="atmrobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>atm robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>   
+                    <div class="scoreboard-info-beam" data-type="fleecarobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>fleeca robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="jewelleryrobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>jewellery robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="politorobbery" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>polito robbery</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="robcitz" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>citizen hostage</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="policeonline" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>online cops</p><i class="fa-solid fa-handcuffs"></i></div>
+                        <div class="info-beam-status1" id="total-cops"></div>
+                    </div>
+					<div class="scoreboard-info-beam" style="background: #1f1f1f;">
+                        <div class="info-beam-title"><p>players</p><i class="fa-solid fa-people-group"></i></div>
+                        <div class="info-beam-status1" id="total-players"></div>
+						</div>
+				</div>
+				
+            </div>
+        </div>
+    </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

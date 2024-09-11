@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tajawal:700&display=swap&subset=arabic');
+
+
+--devloper by tma
+
+.container {
+    height: 100vh;
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+.scoreboard-block {
+    display: none;
+    position: absolute;
+    height: 24vh;
+    width: 30.1vh;
+    border-radius: 10px 10px 0 0;
+    background: #0e0e0e;
+    right: 2.5vh;
+    top: 33vh;
+    padding: 1;
+}
+
+.scoreboard-header > p {
+    font-weight: bold;
+    color: #30c98b;
+	text-shadow: #30c98b 1px 0 12px;
+    font-family: 'Tajawal';
+    font-size: 1.8vh;
+	text-align: center;
+	line-height: 5.5vh;
+}
+
+.scoreboard-info {
+    position: absolute;
+    height: 28.5vh;
+    width: 15vh;
+    top: 74.2%;
+	left: 49.8%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.scoreboard-info1 {
+    position: absolute;
+    height: 28.5vh;
+    width: 15vh;
+    top: 74.2%;
+	left: -.4%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.scoreboard-info-header {
+    position: relative;
+    height: 2vh;
+}
+
+#info-tab-label {
+    position: absolute;
+    font-family: 'Tajawal';
+    color: #30c98b;
+    left: 1vh;
+    font-weight: bold;
+}
+
+#status-tab-label {
+    position: absolute;
+    font-family: 'Tajawal';
+    color: #30c98b;
+    right: 3vh;
+    font-weight: bold;
+}
+
+.info-beam-title {
+    position: absolute;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.2vh;
+    font-weight: lighter;
+    color: rgb(206, 206, 206);
+    letter-spacing: 0.1vh;
+    left: 1vh;
+    line-height: 2;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.info-beam-title p {
+    margin: 0;
+    margin-right: 0.4vh;
+}
+
+.info-beam-title i {
+    font-size: 1.2vh;
+	line-height: 2;
+    color: rgb(206, 206, 206);
+}
+
+.info-beam-status {
+    position: absolute;
+    font-family: 'Tajawal';
+    font-size: 1.6vh;
+    color: rgb(236, 56, 56);
+    right: 1vh;
+    float: left;
+    text-align: left;
+    line-height: 2.4vh;
+}
+
+.info-beam-status1 {
+    position: absolute;
+    font-family: 'Tajawal';
+    font-size: 1.6vh;
+    color: #30c98b;
+    right: 1vh;
+    float: left;
+    text-align: left;
+	line-height: 2.4vh;
+}
+
+.scoreboard-info-beam {
+    position: relative;
+    height: 2.2vh;
+    margin: 1px 1px 1.2px 1.2px;
+    width: 100%;
+}
+
+.scoreboard-info-beam1 {
+    position: relative;
+    height: 2.2vh;
+    margin: 1px 1px 1.2px 1.2px;
+    width: 100%;
+}
+
+
+.fa-check {
+    color: rgb(59, 141, 49);
+}
+
+.fa-clock {
+    color: rgb(255, 190, 50);
+}
+
+.green {
+    color: rgb(98, 255, 78);
+}
+
+.red {
+    color: rgb(235, 59, 59);
+}
+
+.clover-logo {
+  position: absolute;
+  margin-left: 33%;
+  margin-top: -15%;
+  height: 13.4vh;
+  width: 13.4vh;
+}
+
+hr {
+	position: absolute;
+	width:100%;
+	height: 0.2vh;
+	top: 4.7vh;
+	background: #30c98b;
+	border:none;
+}
